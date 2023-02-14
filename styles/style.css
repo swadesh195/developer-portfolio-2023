@@ -2,6 +2,7 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
 /* Header and navigations styles */
 nav{
     display: flex;
@@ -12,7 +13,7 @@ nav{
     font-size: 45px;
     font-weight: 800;
 }
-.nav-title .text-orange{
+.text-primary{
     color: #FD6E0A;
 }
 nav ul {
