@@ -3,6 +3,21 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    color: #fff;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+}
+
 /* Header and navigations styles */
 nav{
     display: flex;
@@ -12,9 +27,6 @@ nav{
 .nav-title{
     font-size: 45px;
     font-weight: 800;
-}
-.text-primary{
-    color: #FD6E0A;
 }
 nav ul {
     display: flex;
