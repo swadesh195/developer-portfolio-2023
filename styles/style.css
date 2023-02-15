@@ -19,10 +19,16 @@
 }
 
 /* Header and navigations styles */
+.header{
+    background: #fff8f3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0 200px;
 }
 .nav-title{
     font-size: 45px;
