@@ -88,3 +88,16 @@ main{
     font-size: 18px;
     margin-bottom: 30px;
 }
+/* about-info style */
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    color: #757575;
+}
+.info-description{
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+}
