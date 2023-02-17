@@ -106,6 +106,7 @@ main{
 .what-i-do{
     margin-top: 130px;
     margin-bottom: 30px;
+    text-align: center;
 }
 .what-i-do .section-description{
     width: 909px;
@@ -119,6 +120,8 @@ main{
 }
 .skill{
     padding: 30px;
+    border-radius: 5px;
+    text-align: left;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
 }
 .skill-img{
@@ -132,4 +135,52 @@ main{
 }
 .skill-description{
     color: #757575;
+}
+/* resume styles */
+
+.resume-title{
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 130px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.resume-content{
+    display: flex;
+    column-gap: 70px;
+}
+.education-title{
+    color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.education-info{
+    margin-top: 10px;
+    border-bottom: 1px solid #D1D1D1;
+}
+.education-info-title{
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.education-info-subtitle{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.education-info-description{
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+#btn-middle{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
 }
